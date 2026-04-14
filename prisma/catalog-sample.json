@@ -1,0 +1,182 @@
+[
+  {
+    "code": "M1",
+    "description": "TABLERO PILAR MONO  -  4 MODULOS (ID + TM )",
+    "basePrice": 140000.0,
+    "sourceGroup": "MONOFASICO"
+  },
+  {
+    "code": "M2",
+    "description": "TABLERO PILAR MONO  AMURADO + CONEXIÓN",
+    "basePrice": 80000.0,
+    "sourceGroup": "MONOFASICO"
+  },
+  {
+    "code": "M3",
+    "description": "TABLERO MONO - HASTA 8 POLOS",
+    "basePrice": 125000.0,
+    "sourceGroup": "MONOFASICO"
+  },
+  {
+    "code": "M4",
+    "description": "TABLERO MONO  - HASTA 12 POLOS",
+    "basePrice": 175000.0,
+    "sourceGroup": "MONOFASICO"
+  },
+  {
+    "code": "M5",
+    "description": "TABLERO MONO - HASTA 16 POLOS",
+    "basePrice": 190000.0,
+    "sourceGroup": "MONOFASICO"
+  },
+  {
+    "code": "M6",
+    "description": "TABLERO MONO - HASTA 20 POLOS",
+    "basePrice": 260000.0,
+    "sourceGroup": "MONOFASICO"
+  },
+  {
+    "code": "M7",
+    "description": "TABLERO MONO - HASTA 24 POLOS",
+    "basePrice": 300000.0,
+    "sourceGroup": "MONOFASICO"
+  },
+  {
+    "code": "M8",
+    "description": "TABLERO MONO  - HASTA 36 POLOS",
+    "basePrice": 360000.0,
+    "sourceGroup": "MONOFASICO"
+  },
+  {
+    "code": "M16",
+    "description": "TABLERO PARA TANQUE CISTERNA",
+    "basePrice": 180000.0,
+    "sourceGroup": "MONOFASICO"
+  },
+  {
+    "code": "M17",
+    "description": "TABLERO PARA ILUMINACION PERIMETRAL",
+    "basePrice": 260000.0,
+    "sourceGroup": "MONOFASICO"
+  },
+  {
+    "code": "M18",
+    "description": "TABLERO P- AUTOMAT. DE PILETA",
+    "basePrice": 45000.0,
+    "sourceGroup": "MONOFASICO"
+  },
+  {
+    "code": "M64",
+    "description": "AGREGADO/CAMBIO DE DISYUNTOR",
+    "basePrice": 55000.0,
+    "sourceGroup": "MONOFASICO"
+  },
+  {
+    "code": "M65",
+    "description": "AGREGADO/CAMBIO DE TM ",
+    "basePrice": 49000.0,
+    "sourceGroup": "MONOFASICO"
+  },
+  {
+    "code": "M66",
+    "description": "AGREGADO DE COFIMETRO ",
+    "basePrice": 69000.0,
+    "sourceGroup": "MONOFASICO"
+  },
+  {
+    "code": "M67",
+    "description": "AGREGADO DE RELOJ ANAL.",
+    "basePrice": 32000.0,
+    "sourceGroup": "MONOFASICO"
+  },
+  {
+    "code": "M68",
+    "description": "AGREGADO DE PROTECCIÓN CONTRA SOBRETENSION",
+    "basePrice": 110000.0,
+    "sourceGroup": "MONOFASICO"
+  },
+  {
+    "code": "T1",
+    "description": "TABLERO PILAR TRI- ID + TM ",
+    "basePrice": 260000.0,
+    "sourceGroup": "TRIFASICO"
+  },
+  {
+    "code": "T2",
+    "description": "TABLERO PARA PILAR - MCCB TIPO NSX ",
+    "basePrice": 490000.0,
+    "sourceGroup": "TRIFASICO"
+  },
+  {
+    "code": "T3",
+    "description": "TABLERO PROVISORIO DE OBRA",
+    "basePrice": 370000.0,
+    "sourceGroup": "TRIFASICO"
+  },
+  {
+    "code": "T4",
+    "description": "TABLERO INDUSTRIAL DIRECTO (P/MOTOR)",
+    "basePrice": 320000.0,
+    "sourceGroup": "TRIFASICO"
+  },
+  {
+    "code": "T5",
+    "description": "TABLERO INDUSTRIAL ESTRELLA-TRIANGULO",
+    "basePrice": 720000.0,
+    "sourceGroup": "TRIFASICO"
+  },
+  {
+    "code": "T8",
+    "description": "TABLERO INDUSTRIAL ADAP ATS BYPASS (MANUAL)",
+    "basePrice": 2300000.0,
+    "sourceGroup": "TRIFASICO"
+  },
+  {
+    "code": "T9",
+    "description": "TABLERO INDUSTRIAL ADAP ATS BYPASS (PLC)",
+    "basePrice": 2500000.0,
+    "sourceGroup": "TRIFASICO"
+  },
+  {
+    "code": "T12",
+    "description": "TABLERO INDUSTRIAL 10",
+    "basePrice": 330000.0,
+    "sourceGroup": "TRIFASICO"
+  },
+  {
+    "code": "T13",
+    "description": "TABLERO INDUSTRIAL 11",
+    "basePrice": 350000.0,
+    "sourceGroup": "TRIFASICO"
+  },
+  {
+    "code": "T14",
+    "description": "TABLERO INDUSTRIAL 12",
+    "basePrice": 380000.0,
+    "sourceGroup": "TRIFASICO"
+  },
+  {
+    "code": "T15",
+    "description": "TABLERO INDUSTRIAL HASTA 14",
+    "basePrice": 420000.0,
+    "sourceGroup": "TRIFASICO"
+  },
+  {
+    "code": "T17",
+    "description": "TABLERO ADAPTACION PARA SUMINISTRO DE GENERADOR",
+    "basePrice": 120000.0,
+    "sourceGroup": "TRIFASICO"
+  },
+  {
+    "code": "T19",
+    "description": "TABLERO TRIF. CON DERIVACION MONOF. HAST 8",
+    "basePrice": 140000.0,
+    "sourceGroup": "TRIFASICO"
+  },
+  {
+    "code": "T20",
+    "description": "TABLERO TRIF. CON DERIVACION MONOF. HASTA 24",
+    "basePrice": 380000.0,
+    "sourceGroup": "TRIFASICO"
+  }
+]

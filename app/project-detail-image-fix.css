@@ -1,0 +1,20 @@
+/* PATCH: centrar imagen ampliada de obras */
+.projectDetailCard {
+  padding: 14px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projectDetailImage {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 680px;
+  margin: 0 auto;
+  object-fit: contain;
+  object-position: center center;
+  border-radius: 18px;
+}

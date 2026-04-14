@@ -1,0 +1,186 @@
+
+.tgr-print-page {
+  padding: 24px;
+  background: #eef3fb;
+}
+
+.tgr-print-sheet {
+  width: min(100%, 960px);
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 24px;
+  box-shadow: 0 18px 40px rgba(18, 37, 77, 0.10);
+  padding: 34px;
+  color: #1b2740;
+}
+
+.tgr-print-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  border-bottom: 1px solid #dbe4f4;
+  padding-bottom: 20px;
+}
+
+.tgr-print-brand {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.tgr-print-logo-box {
+  width: 88px;
+  height: 88px;
+  display: grid;
+  place-items: center;
+  border-radius: 18px;
+  border: 1px solid #dbe4f4;
+  background: #fff;
+  flex: 0 0 auto;
+}
+
+.tgr-print-brand h1 {
+  margin: 0 0 10px;
+  font-size: 1.5rem;
+}
+
+.tgr-print-brand p,
+.tgr-print-meta span {
+  margin: 0 0 6px;
+  color: #4d5d79;
+}
+
+.tgr-print-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 180px;
+  text-align: right;
+}
+
+.tgr-print-meta strong {
+  font-size: 1.1rem;
+}
+
+.tgr-print-block {
+  margin-top: 24px;
+}
+
+.tgr-print-block h2 {
+  margin: 0 0 12px;
+  font-size: 1rem;
+  letter-spacing: .04em;
+  color: #173a86;
+}
+
+.tgr-print-block p {
+  margin: 0 0 10px;
+  line-height: 1.65;
+}
+
+.tgr-print-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 24px;
+}
+
+.tgr-print-table th,
+.tgr-print-table td {
+  border: 1px solid #dde5f3;
+  padding: 10px 12px;
+  text-align: left;
+  font-size: .95rem;
+}
+
+.tgr-print-table th {
+  background: #f4f7fc;
+}
+
+.tgr-print-totals {
+  width: min(100%, 320px);
+  margin-left: auto;
+  margin-top: 20px;
+  display: grid;
+  gap: 10px;
+}
+
+.tgr-print-totals > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 12px 14px;
+  border-radius: 14px;
+  background: #f5f8fe;
+  border: 1px solid #dce5f3;
+}
+
+.tgr-print-actions {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-end;
+  width: min(100%, 960px);
+  margin: 0 auto 16px;
+}
+
+.tgr-print-actions button,
+.tgr-print-actions a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 16px;
+  border-radius: 12px;
+  border: 1px solid #d1dcf0;
+  background: #fff;
+  color: #173a86;
+  text-decoration: none;
+  cursor: pointer;
+  font: inherit;
+}
+
+@page {
+  size: A4;
+  margin: 10mm;
+}
+
+@media print {
+  html, body {
+    background: #ffffff !important;
+  }
+
+  .tgr-print-actions,
+  nav,
+  header,
+  footer,
+  aside,
+  button,
+  .no-print {
+    display: none !important;
+  }
+
+  .tgr-print-page {
+    padding: 0 !important;
+    background: #fff !important;
+  }
+
+  .tgr-print-sheet {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    padding: 0 !important;
+  }
+}
+
+@media (max-width: 900px) {
+  .tgr-print-head,
+  .tgr-print-brand,
+  .tgr-print-actions {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .tgr-print-meta {
+    text-align: left;
+    min-width: unset;
+  }
+}
